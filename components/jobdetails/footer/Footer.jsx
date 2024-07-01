@@ -1,11 +1,13 @@
 import { View, Text, TouchableOpacity, Image, Linking } from "react-native";
-
+import Animated, {
+  SlideInDown
+} from 'react-native-reanimated';
 import styles from "./footer.style";
 import { icons } from "../../../constants";
 
 const Footer = ({ url }) => {
   return (
-    <View style={styles.container}>
+    <Animated.View style={styles.container} entering={SlideInDown.delay(1000)}>
       <TouchableOpacity style={styles.likeBtn}>
         <Image
           source={icons.heartOutline}
@@ -20,7 +22,7 @@ const Footer = ({ url }) => {
       >
         <Text style={styles.applyBtnText}>Apply for job</Text>
       </TouchableOpacity>
-    </View>
+    </Animated.View>
   );
 };
 
