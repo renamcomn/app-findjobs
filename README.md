@@ -1,13 +1,35 @@
-# Expo Router Example
+# Find Jobs
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+Find Jobs is a cutting-edge mobile application designed to streamline your job search in the technology sector.
+<br>
 
-## 🚀 How to use
+<p align="left">
+  <img src="https://github.com/renamcomn/findjobs-app/assets/26748562/63beb887-9964-4119-b049-cb1862d60bbc" width="400" />
+</p>
 
-```sh
-npx create-expo-app -e with-router
-```
+## Features
 
-## 📝 Notes
+- Jobs listing and searching
+- Jobs details
 
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+## Technologies Used
+
+- **React Native**: A framework for building native apps using React.
+- **Expo Router**: Used for navigation and routing within the app.
+- **Reanimated**: For creating smooth animations.
+- **Rapid API**: For to serve the data.
+
+- ## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/renamcomn/findjobs-app.git
+   cd findjobs-app
+
+2. Install the dependencies:
+   ```sh
+   npm install
+
+3. Start the project:
+   ```sh
+   npx expo start
